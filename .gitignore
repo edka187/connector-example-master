@@ -1,0 +1,10 @@
+vendor
+var
+db
+.idea
+.vscode
+.phpunit.result.cache
+config.json
+installer.lock
+phpunit.xml
+composer.lock

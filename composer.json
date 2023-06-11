@@ -1,0 +1,36 @@
+{
+  "name": "jtl/example-connector",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Niklas Kokoschka",
+      "email": "niklas.kokoschka@jtl-software.com"
+    },
+    {
+      "name": "Patryk Gorol",
+      "email": "patryk.gorol@jtl-software.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4. || ^8.0 || ^8.1",
+    "jtl/connector": "^5.0",
+    "phpunit/phpunit": "^9.3",
+    "jtl/unit-test": "^0.1.1",
+    "ramsey/uuid": "^4.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jtl\\Connector\\Example\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jtl\\Connector\\Example\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.1"
+  }
+}
